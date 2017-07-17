@@ -6,7 +6,7 @@ class TodoForm extends React.Component {
     return (
       <div className="todoBox">
         <h1>Todos</h1>
-        <TodoList />
+        <TodoList data={this.props.data}/>
       <div className="todoForm">I am a TodoForm.</div>
       </div>
     );
